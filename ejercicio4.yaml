@@ -1,0 +1,18 @@
+swagger: "2.0"
+info:
+  title: "Documentación de Ejercicios"
+  description: "Documentación de ejercicios para coordinadora."
+  version: "1.0.0"
+paths:
+  /leer_valor:
+    get:
+      summary: "Lee un valor entero del usuario"
+      description: "Lee un valor entero del usuario y lo valida para estar entre 1 y 30."
+      responses:
+        200:
+          description: "Valor entero leído exitosamente"
+          schema:
+            type: integer
+
+
+

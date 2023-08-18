@@ -1,0 +1,31 @@
+swagger: "2.0"
+info:
+  title: "Documentación de Ejercicios"
+  description: "Documentación de ejercicios para coordinadora."
+  version: "1.0.0"
+paths:
+  /procesar_arreglo:
+    post:
+      summary: "Procesa un arreglo según su tipo"
+      description: "Procesa un arreglo según su tipo y realiza operaciones específicas."
+      parameters:
+        - in: body
+          name: arreglo
+          description: "Arreglo con tipo y números a procesar"
+          required: true
+          schema:
+            type: object
+            properties:
+              tipo:
+                type: integer
+              numeros:
+                type: array
+                items:
+                  type: integer
+      responses:
+        200:
+          description: "Operaciones realizadas exitosamente"
+          schema:
+            type: object
+
+

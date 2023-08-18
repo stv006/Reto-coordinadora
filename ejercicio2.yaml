@@ -1,0 +1,27 @@
+swagger: "2.0"
+info:
+  title: "Documentación de Ejercicios"
+  description: "Documentación de ejercicios para coordinadora."
+  version: "1.0.0"
+paths:
+  /calcular_tribonacci_secuencia:
+    post:
+      summary: "Genera la secuencia Tribonacci"
+      description: "Genera la secuencia Tribonacci basada en una secuencia inicial válida de Fibonacci."
+      parameters:
+        - in: body
+          name: secuencia_inicial
+          description: "Secuencia inicial válida de Fibonacci"
+          required: true
+          schema:
+            type: array
+            items:
+              type: integer
+      responses:
+        200:
+          description: "Secuencia Tribonacci generada exitosamente"
+          schema:
+            type: array
+            items:
+              type: integer
+
