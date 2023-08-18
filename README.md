@@ -14,6 +14,10 @@
 
 5. **Video:**
    Al grabar los videos, experimenté momentos en los que me trababa o me detenía demasiado en un punto. Para solucionarlo, decidí copiar algunos recordatorios y notas para tenerlas a la vista mientras grababa la explicación.
+   - Video 1: [Enlace](https://youtu.be/tYxNhwjXTec)
+   - Video 2: [Enlace](https://youtu.be/S-cILWb44Kk)
+   - Video 3: [Enlace](https://youtu.be/ZUy-8gj-5RA)
+   - Video 4: [Enlace](https://youtu.be/rRnhHjGz9M4)
 
 6. **Tiempo:**
    No tuve suficiente tiempo para abordar la siguiente fase del reto. Entre las clases y el trabajo, me resultó más difícil avanzar en los dos últimos ejercicios a tiempo.
